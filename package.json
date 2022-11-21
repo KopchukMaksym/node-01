@@ -1,0 +1,29 @@
+{
+    "name": "01",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "dev": "nodemon index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "module",
+        "url": "git+https://github.com/KopchukMaksym/node-01.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/KopchukMaksym/node-01/issues"
+    },
+    "homepage": "https://github.com/KopchukMaksym/node-01#readme",
+    "devDependencies": {
+        "nodemon": "^2.0.20"
+    },
+    "dependencies": {
+        "commander": "^9.4.1",
+        "nanoid": "^4.0.0",
+        "yargs": "^17.6.2"
+    }
+}
